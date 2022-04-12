@@ -1,6 +1,7 @@
 "use strict";
-
 const router = require("express").Router();
+
+router.use("/post", require("./post"));
 
 // Your routes go here!
 // NOTE: Any routes that you put here are ALREADY mounted on `/api`
